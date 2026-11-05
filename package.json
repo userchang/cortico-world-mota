@@ -47,7 +47,7 @@
   "author": "userchang",
   "repository": {
     "type": "git",
-    "url": "https://github.com/userchang/cortico-world-mota.git"
+    "url": "git+https://github.com/userchang/cortico-world-mota.git"
   },
   "homepage": "https://github.com/userchang/cortico-world-mota#readme",
   "bugs": {
