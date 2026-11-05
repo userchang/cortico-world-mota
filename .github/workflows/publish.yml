@@ -21,7 +21,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 24
-          registry-url: 'https://registry.npmjs.org'
+
+      - name: Upgrade npm to latest for OIDC Trusted Publisher support
+        run: npm install -g npm@latest
 
       - name: Check if version already published
         id: check-version
@@ -36,7 +38,7 @@ jobs:
             echo "should_publish=true" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Publish to npm
+      - name: Publish to npm (OIDC Trusted Publisher or Token)
         if: steps.check-version.outputs.should_publish == 'true'
         run: |
           if [ -n "$NPM_TOKEN" ]; then
