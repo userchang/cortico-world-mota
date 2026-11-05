@@ -1,6 +1,10 @@
 <!-- Owner: src/definition.ts, src/world.ts, src/game-adapter.js. -->
 # Changelog
 
+## 0.1.35
+
+- Add classic Green Slime icon (assets/icon.png) for the World in Coopanion console and marketplace.
+
 ## 0.1.34
 
 - Rename the World to "h5魔塔（50层）" in the console (English: "H5 Magic Tower (50 floors)").

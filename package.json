@@ -1,6 +1,6 @@
 {
   "name": "cortico-world-mota",
-  "version": "0.1.34",
+  "version": "0.1.35",
   "type": "module",
   "description": "让桌宠自主游玩 HTML5 魔塔。理论上支持所有基于 HTML5 样板制作的经典魔塔及其衍生变体，支持原生地形探索、全塔物资统筹与陪伴式互动。",
   "license": "MIT",
@@ -27,14 +27,16 @@
     ],
     "describe": "describe.json",
     "webUiClient": "src/webui/client.js",
-    "displayName": "h5魔塔（50层）"
+    "displayName": "h5魔塔（50层）",
+    "icon": "assets/icon.png"
   },
   "files": [
     "src",
     "README.md",
     "README_zh.md",
     "CHANGELOG.md",
-    "describe.json"
+    "describe.json",
+    "assets"
   ],
   "devDependencies": {
     "@types/node": "^22.10.0",
